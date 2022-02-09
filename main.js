@@ -25,13 +25,14 @@ class Board {
           obj[y]=new Array(this.columns);
           
           
-       
+          obj.fill("*");
+          console.log(JSON.stringify(obj));
              
           //for (let z= 1; z <= obj[y].length; z++) {
             // obj[y][z].fill
             // console.log(obj[y][z].fill('*'));
      }
-     console.log(obj.);
+     
 
         }
        
@@ -43,7 +44,7 @@ class Board {
    
 
 
-let board = new Board(4, 4)
+let board = new Board(8, 4)
 
 //status: 1 for alive and 0 for dead
 class Cell {
