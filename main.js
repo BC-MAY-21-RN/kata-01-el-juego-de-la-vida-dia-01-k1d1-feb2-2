@@ -43,7 +43,7 @@ class Board {
    
 
 
-let board = new Board(4, 8)
+let board = new Board(4, 4)
 
 //status: 1 for alive and 0 for dead
 class Cell {
